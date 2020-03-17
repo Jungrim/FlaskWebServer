@@ -28,6 +28,7 @@ def home():
     result = response.read().decode('utf-8')
     jsonResult = json.loads(result)
     print(jsonResult)
+    print('test')
     title = getTitle('http://www.pythonscraping.com/pages/page1.html')
     if title == None:
         print('TItle could not be found')
