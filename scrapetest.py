@@ -50,7 +50,7 @@ def home():
         resultList.append(n.get_text())
     resultList[0] = resultList[0][4:]
 
-    resJSON = {"accumulate" : resultList[0], "Cure": resultList[1], "underTreatment":resultList[2], "Dead":resultList[3]}
+    resJSON = {"accumulate" : resultList[0], "cure": resultList[1], "underTreatment":resultList[2], "dead":resultList[3]}
 
     return resJSON
 
